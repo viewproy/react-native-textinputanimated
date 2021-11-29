@@ -1,3 +1,3 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import TextInput from './TextInput/TextInput';
+
+export default TextInput;
