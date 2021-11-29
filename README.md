@@ -5,17 +5,22 @@ library
 ## Installation
 
 ```sh
-npm install react-native-textinputanimated
+npm install react-native-viewproy-textinputanimated
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-textinputanimated";
+import TextInput from "react-native-viewproy-textinputanimated";
 
 // ...
 
-const result = await multiply(3, 7);
+<TextInput
+    value={form.name}
+    keyForm="name"
+    placeholder={t('PLACEHOLDER_NAME')}
+    onChangeText={onChangeText}
+/>
 ```
 
 ## Contributing
