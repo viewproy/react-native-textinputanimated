@@ -1,6 +1,6 @@
 {
   "name": "react-native-viewproy-textinputanimated",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
