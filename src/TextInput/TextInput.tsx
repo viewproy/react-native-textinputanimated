@@ -76,7 +76,6 @@ const TextInput: React.FC<Props> = (props) => {
       </Animated.Text>
       <TRN
         {...props}
-        autoCapitalize="characters"
         placeholder=""
         style={styles.input}
         blurOnSubmit={true}
